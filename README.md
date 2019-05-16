@@ -38,16 +38,16 @@ Options:
 
 ## afl-multistats
 
-`afl-multistats` gathers and aggregates stats from an AFl sync directory, and presents them either in a human-readable format, or in JSON. It also includes a HUD mode which is similar to AFL's retro-style UI.
+`afl-multistats` gathers and aggregates stats from an AFL sync directory, and presents them either in a human-readable format, or in JSON. It also includes a HUD mode which is similar to AFL's retro-style UI.
 
 `afl-multistats --help`:
 
 ```
 afl-multistats [options] /path/to/sync/dir
-
+	
 Options:
 
-	-format fmt   - the format to output stats in (human)
-	-basic        - only output basic stats
+	-format fmt   - the format to output stats in (json)
+	-advanced     - output all stats, not just summary
 	-hud          - display a persistent stats HUD
 ```
